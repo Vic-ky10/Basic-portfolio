@@ -1,0 +1,107 @@
+*{
+    margin: 0 ;
+    padding: 0;
+     box-sizing: border-box;
+     
+}
+
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px 50px;
+    background: #111;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left , #000 ,#333);
+    color : white;
+    text-align: center;
+}
+
+.btn{
+    margin-top : 20px;
+    padding: 10px 20px;
+    background : #ff9800;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding :60px 80px ;
+     color: white;
+     background: linear-gradient(to left , #000 ,#333);
+}
+h2 {
+    margin-bottom :20px;
+}
+
+.skills-grid {
+    display :grid ;
+    grid-template-columns:repeat(auto-fit , minmax(120px ,1fr));
+    gap: 20px;
+}
+
+.skills-grid div {
+    padding: 20px;
+    background: #f2f2f2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.project-card {
+    background: #f9f9f9;
+    color: white;
+    padding :20px ;
+    margin-bottom : 20px ;
+    border-radius : 5px;
+}
+
+.contact form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input , 
+.contact textarea {
+    padding: 10px;
+    border : 1px solid #ccc
+}
+
+.contact button {
+    padding : 10px ;
+    background : #111;
+    color: #fff;
+    border : none ;
+   
+    
+}
+.footer {
+    text-align: center;
+    padding : 20px ;
+    background: #111;
+    color: #fff;
+
+}
+
+
