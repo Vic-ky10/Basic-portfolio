@@ -39,7 +39,7 @@
 .btn{
     margin-top : 20px;
     padding: 10px 20px;
-    background : #ff9800;
+    
     border-radius: 5px;
     text-decoration: none;
     color: white;
@@ -70,7 +70,7 @@ h2 {
 
 .project-card {
     background: #f9f9f9;
-    color: white;
+    color: black;
     padding :20px ;
     margin-bottom : 20px ;
     border-radius : 5px;
